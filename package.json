@@ -1,0 +1,24 @@
+{
+  "name": "gsn-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "@opengsn/gsn": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "etherea": "0.0.4",
+    "ethers": "^5.0.0-beta.191",
+    "ethnode": "0.0.20",
+    "web3-providers-http": "^1.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ethnode": "ethnode",
+    "gsn": "gsn start",
+    "deploy": "node deploy",
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC"
+}
